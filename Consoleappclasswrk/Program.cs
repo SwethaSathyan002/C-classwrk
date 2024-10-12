@@ -637,6 +637,620 @@ tax rules are as follows:
 
             Console.ReadLine();
 
-        }
+            //****************************************DAY2***************************************************************************
+
+
+            //Write a C# program to print the multiplication table of a given number using the for loop.
+
+
+            //Console.WriteLine("enter the number :");
+            //int a = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 1; i < 11; i++)
+            //{
+            //    Console.WriteLine($"{a} * {i} = {a * i}");
+            //}
+            //Console.ReadLine();
+
+
+            ////Write a C# program to display a right-angled triangle pattern using nested for loops.
+
+            //Console.WriteLine("enter the number of rows:");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 0; i <= n; i++)
+            //{
+            //    for (int j = 0; j < i; j++)
+            //    {
+            //        Console.Write("* ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.ReadLine();
+
+
+            //Write a C# program to calculate the sum of all even numbers between 1 and 100 using a while loop
+
+
+            //int i = 0;
+            //int sum = 0;
+            //while (i <= 100)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        sum += i;
+            //    }
+            //    i++;
+
+            //}
+            //Console.WriteLine($"the sum of even numbers from 1 to 100 = {sum}");
+            //Console.ReadLine();
+
+
+
+            //Write a C# program to print a multiplication table from 1 to 5 using nested while loops.
+
+            //int i = 1;
+
+            //while (i <= 5)
+            //{
+            //    int j = 1;
+            //    while (j <= 10)
+            //    {
+            //        Console.WriteLine($"{i} * {j} = {j * i}");
+            //        j++;
+            //    }
+            //    i++;
+            //    Console.WriteLine();
+            //}
+
+            //Console.ReadLine();
+
+
+            //Write a C# program to keep asking the user to enter a positive number and print it. The program
+            ////should stop when the user enters a negative number.
+
+
+            //while (true)
+
+            //{
+            //    Console.WriteLine("enter a positive number :");
+            //    double num = Double.Parse(Console.ReadLine());
+            //    if (num < 0)
+            //    {
+            //        Console.WriteLine("enterred a negative number");
+            //        break;
+            //    }
+
+            //}
+            //Console.ReadLine();
+
+
+            //            Write a C# program to create a basic menu-driven calculator using nested do-while loops. The
+            //calculator should continue to ask the user for two numbers and an operation(+, -, *, /) until the
+            //user chooses to exit.
+
+
+
+
+
+
+
+
+
+            //string op;
+            //double num1, num2, result;
+
+            //do
+            //{
+            //    Console.WriteLine("Choose operator (+, -, *, /) or type 'exit' to quit:");
+            //    op = Console.ReadLine().ToLower();
+
+            //    if (op == "exit")
+            //    {
+            //        Console.WriteLine("Exiting the program...");
+            //        break;
+            //    }
+
+            //    // Read two numbers
+            //    Console.Write("Enter the first number: ");
+            //    num1 = double.Parse(Console.ReadLine());
+
+            //    Console.Write("Enter the second number: ");
+            //    num2 = double.Parse(Console.ReadLine());
+
+            //    // Perform the operation
+            //    switch (op)
+            //    {
+            //        case "+":
+            //            result = num1 + num2;
+            //            Console.WriteLine($"Result: {num1} + {num2} = {result}");
+            //            break;
+
+            //        case "-":
+            //            result = num1 - num2;
+            //            Console.WriteLine($"Result: {num1} - {num2} = {result}");
+            //        case "*":
+            //            result = num1 * num2;
+            //            Console.WriteLine($"Result: {num1} * {num2} = {result}");
+            //            break;
+
+            //        case "/":
+            //            if (num2 != 0)
+            //            {
+            //                result = num1 / num2;
+            //                Console.WriteLine($"Result: {num1} / {num2} = {result}");
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("Error: Division by zero is not allowed.");
+            //            }
+            //            break;
+
+            //        default:
+            //            Console.WriteLine("Invalid operator. Please enter +, -, *, /, or 'exit' to quit.");
+            //            break;
+            //    }
+
+            //} while (op != "exit");
+
+
+
+
+            //            Write a C# program to print all numbers from 1 to 100. Use the continue statement to skip
+            //numbers that are divisible by 3, and use the break statement to stop the loop if the number
+            //exceeds 50.
+
+
+
+            //for (int i = 1; i <= 100; i++)
+            //{
+
+            //    if (i > 50)
+            //    {
+            //        break;
+            //    }
+
+
+            //    if (i % 3 == 0)
+            //    {
+            //        continue;
+            //    }
+
+            //    Console.WriteLine(i);
+
+            //}
+            //Console.ReadLine();
+
+
+            //Write a C# program to calculate the sum of all odd numbers between 1 and 100 using a for loop.
+
+
+            //int sum = 0;
+            //for (int i = 1; i <= 100; i++)
+            //{
+            //    if (i % 2 == 1)
+            //    {
+            //        sum += i;
+            //    }
+            //}
+            //Console.WriteLine($"the sum of odd numbers from 1 to 100 is {sum}");
+            //Console.ReadLine();
+
+
+
+            //Write a C# program to calculate the factorial of a given number using a while loop.
+
+
+            //Console.WriteLine("enter the number :");
+            //int num = Convert.ToInt32(Console.ReadLine());
+            //int i = 1;
+            //int fact = 1;
+            //while (i <= num)
+            //{
+            //    fact *= i;
+            //    i++;
+            //}
+            //Console.WriteLine($"the factorial is {fact}");
+            //Console.ReadLine();
+
+
+            //Write a C# program to print a number pyramid using a nested while loop. Example for 5 rows:
+
+
+            //int i = 1;
+
+            //while(i<=5)
+            //{
+            //    int j = 1;
+            //    while(j<=i)
+            //    {
+            //        Console.Write(i);
+            //        j++;
+            //    }
+            //    Console.WriteLine();
+            //    i++;
+            //}
+            //Console.ReadLine();
+
+
+
+            //            Write a C# program to create a simple calculator using a switch-case statement. The program
+            //should handle addition, subtraction, multiplication, and division.
+
+
+            //Console.WriteLine("enter two numbers :");
+            //double num1 = Double.Parse(Console.ReadLine());
+            //double num2 = Double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("enter 1. for addition 2. for subtraction 3.for multiplication 4.for division");
+            //int op = Convert.ToInt32(Console.ReadLine());
+
+            //switch(op)
+            //{
+            //    case 1: Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+            //        break;
+            //    case 2: Console.WriteLine($"{num1} - {num2} = {num1-num2}");
+            //        break;
+            //    case 3: Console.WriteLine($"{num1} * {num2} = {num1*num2}");
+            //        break;
+            //    case 4: 
+            //        if(num2!=0)
+            //        { 
+            //        Console.WriteLine($"{num1} / {num2} = {num1}");
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine($"no answer");
+            //        }
+            //        break;
+            //    default: Console.WriteLine("Please enter valid number for operation");
+            //        break;
+            //}
+            //Console.ReadLine();
+
+
+
+
+            //            Write a C# program that accepts a number from the user and calculates the sum of its digits using
+            //a do -while loop.
+
+            //Console.WriteLine("enter the number");
+            //int num = Convert.ToInt32(Console.ReadLine());
+            //int sum = 0;
+            //do
+            //{
+            //    int digit = num % 10;
+            //    sum += digit;
+            //    num = num/10;
+            //}
+            //while(num > 0);
+            //Console.WriteLine($"the sum of digits: {sum}");
+            //Console.ReadLine();
+
+
+            //            Write a C# program that accepts 10 numbers from the user and finds the largest number using a
+            //for loop.
+
+
+
+            //Console.WriteLine("enter the numbers :");
+            //int[] arr = new int[10];
+            //int i = 0;
+            //for (i = 0; i < 10; i++)
+            //{
+            //    arr[i]= Convert.ToInt32(Console.ReadLine());
+            //}
+            //int largest = arr[0];
+            //for (i = 0; i<10; i++)
+            //{
+            //    if (arr[i]>largest)
+            //    {
+            //        largest = arr[i];
+            //    }
+            //}
+            //Console.WriteLine($"the largest number is {largest} ");
+            //Console.ReadLine();
+
+
+
+            //            Write a C# program to calculate the sum of squares of all numbers from 1 to a user-provided
+            //number using a while loop.
+
+
+            //Console.WriteLine("enter the number :");
+            //int num = Convert.ToInt32(Console.ReadLine());
+            //int i = 1;
+            //int sum = 0;
+            //while(i<=num)
+            //{
+            //    sum += (i * i);
+            //    i++;    
+            //} 
+            //Console.WriteLine($"the sum of squares = {sum}");
+            //Console.ReadLine();
+
+            //            Write a C# program to find and print the first multiple of 5 in a given list of numbers. Use the 
+            //break statement to exit the loop once a multiple of 5 is found.
+
+
+            //double[] arr = new double[100];
+            //Console.WriteLine("enter the number of elements");
+            //int num = Convert.ToInt32(Console.ReadLine());
+            //int i = 0;
+            //for(i=0;i<num;i++)
+            //{
+            //    arr[i]= Convert.ToDouble(Console.ReadLine());   
+            //}
+            //bool found = false;
+
+            //for (i=0;i<arr.Length;i++)
+            //{
+            //    if (arr[i] %5 == 0)
+            //    {
+            //        Console.WriteLine($"the first multiple of 5 in the list is {arr[i]}");
+            //        found = true;
+            //        break;
+            //    }
+            //}
+
+            //if(!found)
+            //{
+            //    Console.WriteLine("there is no multiple of 5 found");
+            //}
+            //Console.ReadLine();
+
+
+
+            //            Write a C# program to print numbers from 1 to 20, but skip numbers that are divisible by 3 using 
+            //the continue statement.
+
+
+            //for(int i = 1;i<=20;i++)
+            // {
+            //     if(i%3==0)
+            //     {
+            //         continue;
+            //     }
+            //     else
+            //     {
+            //         Console.WriteLine($"{i}");
+            //     }
+            // }
+
+
+            //Write a C# program to check if a given number is a palindrome using a while loop. 
+
+            //Console.WriteLine("enter the number");
+            //int num = Convert.ToInt32(Console.ReadLine());
+            //int temp = num;
+            //int sum = 0;
+            //while(num>0)
+            //{
+            //    int d = num%10;
+            //    sum = sum * 10 + d;
+            //    num=num/10;
+            //}
+            //if(temp==sum)
+            //{
+            //    Console.WriteLine("it is a palindrome");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("it is not a palindrome");
+            //}
+
+
+            //            Write a C# program to calculate the average of positive numbers entered by the user. The 
+            //program should stop when the user enters a negative number using a do -while loop.
+
+
+
+            //double sum = 0;
+            //int count = 0;
+            //int num;
+            //do
+            //{
+            //    Console.WriteLine("enter a positive number or a negative number to stop");
+            //    num = Convert.ToInt32(Console.ReadLine());
+            //    if (num >= 0)
+            //    {
+            //        sum += num;
+            //        count++;
+            //    }
+
+            //}
+            //while (num > 0);
+
+            //if (count > 0)
+            //{
+            //    double avg = sum / count;
+            //    Console.WriteLine($"the average of numbers is {avg}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("no average");
+            //}
+
+            //Write a C# program to reverse a given number using a do-while loop. 
+
+
+            //Console.WriteLine("enter the number");
+            //int num = Convert.ToInt32(Console.ReadLine());
+            //int sum = 0;
+            //do
+            //{
+            //    int d = num%10;
+            //    sum = sum * 10 + d;
+            //    num=num/10;
+
+            //}
+            //while(num>0);
+
+            //Console.WriteLine($"the reverse is {sum}");
+
+
+            //            Write a C# program that presents a menu to the user for various string operations: 
+            //1.Reverse the string
+            //2.Convert to uppercase
+            //3.Convert to lowercase
+            //4.Find the length of the string
+            //Use a switch-case statement to implement this
+
+            //Console.WriteLine("enter a string");
+            //string str = Console.ReadLine();
+            //Console.WriteLine("enter \r\n 1. Reverse the string \r\n2. Convert to uppercase \r\n3. Convert to lowercase \r\n4. Find the length of the string");
+            //int num = Convert.ToInt32(Console.ReadLine());
+
+            //switch(num)
+            //{
+            //    case 1:
+            //{
+            //    char[] charArr = str.ToCharArray();
+            //    Array.Reverse(charArr);
+            //    string reversedString = new string(charArr);
+            //    Console.WriteLine("Reversed String: " + reversedString);
+            //    break;
+            //}
+            //    case 2:
+            //{
+            //    string STR = str.ToUpper();
+            //    Console.WriteLine("Uppercase String: " + STR);
+            //    break;
+            //}
+            //    case 3:
+            //{
+            //    string lowerCaseStr = str.ToLower();
+            //    Console.WriteLine("Lowercase String: " + lowerCaseStr);
+            //    break;
+            //}
+            //    case 4:
+            //{
+            //    int length = str.Length;
+            //    Console.WriteLine("Length of String: " + length);
+            //    break;
+            //}
+            //    default:
+            //    {
+            //    Console.WriteLine("Invalid option. Please enter a number between 1 and 4.");
+            //    break;
+            //}
+
+            //}
+
+
+            //            Write a C# program to print numbers from 1 to 50 but skip numbers that are divisible by 4 using 
+            //the continue statement.
+
+
+            //for (int i = 1; i <= 50; i++)
+            //{
+            //    if (i % 4 == 0)
+            //    {
+            //        continue;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"{i}");
+            //    }
+            //}
+
+            //Write a C# program to print the first 10 numbers in the Fibonacci sequence using a for loop
+
+            //int num1 = 0, num2 = 1, nextNum;
+
+            //Console.WriteLine("The first 10 numbers in the Fibonacci sequence are:");
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.Write(num1 + " ");
+
+            //    nextNum = num1 + num2;
+            //    num1 = num2;
+            //    num2 = nextNum;
+            //}
+
+
+
+            //            Write a C# program to find all Armstrong numbers between 1 and 500 using a while loop. (An 
+            //Armstrong number is a number that is equal to the sum of the cubes of its digits). 
+
+
+            //int num = 1;
+
+            //Console.WriteLine("Armstrong numbers between 1 and 500 are:");
+
+            //while (num <= 500)
+            //{
+            //    int sum = 0, temp = num;
+            //    while (temp > 0)
+            //    {
+            //        int digit = temp % 10;
+            //        sum += digit * digit * digit;
+            //        temp /= 10;
+            //    }
+
+            //    if (sum == num)
+            //    {
+            //        Console.WriteLine(num);
+            //    }
+
+            //    num++;
+            //}
+
+
+
+            //Write a C# program to reverse a given string using a for loop.
+
+            //Console.WriteLine("Enter a string to reverse:");
+            //string input = Console.ReadLine();
+
+            //string reversedString = "";
+
+            //for (int i = input.Length - 1; i >= 0; i--)
+            //{
+            //    reversedString += input[i];
+            //}
+
+            //Console.WriteLine("Reversed string: " + reversedString);
+
+
+
+
+            //Write a C# program to count the number of vowels and consonants in a given string using a for 
+            //loop. 
+
+        //    Console.WriteLine("Enter a string:");
+        //    string input = Console.ReadLine().ToLower();
+
+        //    int vowelCount = 0, consonantCount = 0;
+
+        //    for (int i = 0; i < input.Length; i++)
+        //    {
+        //        char ch = input[i];
+
+
+
+        //        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+        //        {
+        //            vowelCount++;
+        //        }
+        //        else
+        //        {
+        //            consonantCount++;
+        //        }
+
+        //    }
+
+        //    Console.WriteLine("Number of vowels: " + vowelCount);
+        //    Console.WriteLine("Number of consonants: " + consonantCount);
+
+
+        //    Console.ReadLine();
+        //}
     }
 }
+
+
+
+        
+   
+
